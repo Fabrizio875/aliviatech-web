@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AliviaTech — Tu calma comienza aquí</title>
+  <meta name="description" content="Monitorea tus signos de ansiedad, conéctate con especialistas y toma el control de tu bienestar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- =================== NAVBAR =================== -->
+  <header class="navbar">
+    <div class="container nav-row">
+      <a class="brand" href="#home" aria-label="Inicio AliviaTech">AliviaTech</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="#features">Características</a>
+        <a href="#plans">Planes</a>
+        <a href="#testimonials">Testimonios</a>
+        <a href="#contact">Contacto</a>
+        <a href="pages/dashboard.html" class="btn btn-secondary">Plataforma Web</a>
+        <a href="#get-started" class="btn btn-primary">Comenzar</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Tu calma comienza aquí</h1>
+        <p>Obtén información en tiempo real de tu pulsera inteligente, orientación personalizada y conexión segura con especialistas en salud mental.</p>
+        <div class="hero-cta">
+          <a href="#plans" class="btn btn-primary">Ver planes</a>
+          <a href="#features" class="btn btn-ghost">Saber más</a>
+        </div>
+        <ul class="hero-bullets">
+          <li>Monitoreo inteligente (ritmo cardíaco, SpO₂, temperatura)</li>
+          <li>Ejercicios guiados por IA y técnicas de respiración</li>
+          <li>Panel médico seguro y reportes clínicos</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img src="assets/bracelet.svg" alt="Ilustración de pulsera inteligente" />
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FEATURES =================== -->
+  <section id="features" class="features section">
+    <div class="container">
+      <h2 class="section-title">¿Por qué elegir AliviaTech?</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Monitoreo Inteligente</h3>
+          <p>Registra los primeros signos de ansiedad desde tu dispositivo y recibe alertas oportunas para mantener el control.</p>
+        </article>
+        <article class="card">
+          <h3>Asistente con IA</h3>
+          <p>Recibe recomendaciones y ejercicios de respiración o relajación adaptados a tu estado.</p>
+        </article>
+        <article class="card">
+          <h3>Panel Médico</h3>
+          <p>Permite que tu especialista realice un seguimiento seguro y continuo de tu bienestar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== PLANS =================== -->
+  <section id="plans" class="plans section alt">
+    <div class="container">
+      <h2 class="section-title">Planes</h2>
+      <div class="plan-grid">
+        <article class="plan">
+          <h3>Gratis</h3>
+          <p class="price">S/ 0</p>
+          <ul>
+            <li>Monitoreo básico</li>
+            <li>Ejercicios esenciales</li>
+            <li>Soporte por correo</li>
+          </ul>
+          <a href="#get-started" class="btn btn-secondary">Empezar</a>
+        </article>
+        <article class="plan featured">
+          <div class="badge">Popular</div>
+          <h3>Premium</h3>
+          <p class="price">S/ 29 /mes</p>
+          <ul>
+            <li>Análisis avanzado</li>
+            <li>Compartir con médico</li>
+            <li>Soporte prioritario</li>
+          </ul>
+          <a href="#get-started" class="btn btn-primary">Elegir</a>
+        </article>
+        <article class="plan">
+          <h3>Clínicas</h3>
+          <p class="price">Personalizado</p>
+          <ul>
+            <li>Panel multipaciente</li>
+            <li>Exportación e integraciones</li>
+            <li>Soporte especializado</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary">Contactar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== TESTIMONIALS =================== -->
+  <section id="testimonials" class="testimonials section">
+    <div class="container">
+      <h2 class="section-title">Lo que dicen los usuarios</h2>
+      <div class="card-grid">
+        <blockquote class="card">
+          “Finalmente entiendo mis patrones y me siento en control cuando aparece la ansiedad.”
+          <cite>— Camila, estudiante</cite>
+        </blockquote>
+        <blockquote class="card">
+          “Como especialista, ver las tendencias en tiempo real cambió la calidad de mi seguimiento.”
+          <cite>— Dra. Herrera, psicóloga</cite>
+        </blockquote>
+        <blockquote class="card">
+          “Los reportes semanales me mantienen motivado y constante.”
+          <cite>— Luis, profesional</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>AliviaTech</h4>
+        <p>Calma, claridad y apoyo profesional basado en datos.</p>
+      </div>
+      <form class="contact-form" onsubmit="return false;" aria-label="Formulario de contacto">
+        <label>
+          <span>Correo electrónico</span>
+          <input id="contactEmail" type="email" placeholder="tucorreo@ejemplo.com" required />
+        </label>
+        <label>
+          <span>Mensaje</span>
+          <textarea id="contactMessage" placeholder="Hola equipo de AliviaTech..." required></textarea>
+        </label>
+        <button id="contactSubmit" class="btn btn-primary" type="submit">Enviar</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="footer-meta">
+        <button id="themeToggle" class="btn btn-ghost" type="button" aria-pressed="false">🌙 Tema</button>
+        <p>© 2025 AliviaTech · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

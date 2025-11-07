@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AliviaTech — Panel Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body class="with-sidebar">
+  <aside class="sidebar" aria-label="Barra lateral">
+    <div class="sidebar-brand">AliviaTech</div>
+    <nav class="sidebar-links">
+      <a class="active" href="#">Inicio</a>
+      <a href="#">Mi progreso</a>
+      <a href="#">Médico</a>
+      <a href="#">Alertas</a>
+      <a href="#">Reportes</a>
+      <a href="#">Configuración</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <header class="content-topbar">
+      <h1>Bienvenida, María</h1>
+      <div class="topbar-actions">
+        <input class="input" type="search" placeholder="Buscar..." aria-label="Buscar" />
+        <button id="dashThemeToggle" class="btn btn-ghost">🌙</button>
+      </div>
+    </header>
+
+    <section class="cards">
+      <article class="card kpi">
+        <h3>Índice de calma semanal</h3>
+        <p class="kpi-number">82%</p>
+        <p class="muted">+6% respecto a la semana pasada</p>
+      </article>
+      <article class="card kpi">
+        <h3>Ejercicios completados</h3>
+        <p class="kpi-number">12</p>
+        <p class="muted">Respiración 4-7-8, grounding, pausas breves</p>
+      </article>
+      <article class="card kpi">
+        <h3>Alertas</h3>
+        <p class="kpi-number warning">2</p>
+        <p class="muted">Ambas marcadas como falsos positivos</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h3>Estado de ánimo de hoy</h3>
+      <div class="mood-row">
+        <button class="mood-btn" aria-pressed="false">😊</button>
+        <button class="mood-btn" aria-pressed="false">😐</button>
+        <button class="mood-btn" aria-pressed="false">☹️</button>
+      </div>
+      <textarea class="input" rows="4" placeholder="¿Deseas compartir algo?"></textarea>
+      <div class="row-end">
+        <button class="btn btn-primary">Guardar</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

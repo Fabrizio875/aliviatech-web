@@ -1,0 +1,9 @@
+{
+  "name": "aliviatech-web",
+  "version": "1.0.0",
+  "description": "AliviaTech web platform (landing + dashboard).",
+  "scripts": {
+    "start": "live-server --port=3000 --open=./index.html"
+  },
+  "license": "UNLICENSED"
+}
