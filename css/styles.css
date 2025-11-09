@@ -1,5 +1,5 @@
 /* ==========================
-   AliviaTech Web Styles
+   AliviaTech Web styles
    Palette: 
    - Primary teal: #14B8C4
    - Blue gradient: #3B82F6 → #8B5CF6
@@ -122,7 +122,7 @@ body{
   .nav-links{display:none}
   .menu-toggle{display:inline-block}
 }
-/* Dark theme */
+/* Dark theme  */
 .dark{
   --bg:#0b1020;
   --card:#0f1733;
